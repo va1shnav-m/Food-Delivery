@@ -1,0 +1,188 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="39dp"
+    android:background="#DFE3EE"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:background="@color/white">
+        <View
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/baseline_format_list_bulleted_24"
+            android:layout_margin="10dp"/>
+"
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F46C36"
+            android:text="Food Delivery"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="7dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search for dishes or restaurants"
+                android:textSize="19dp"
+                android:textColor="#BDBCBC"
+                android:layout_margin="10dp"/>
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:background="#F46C36"
+                android:layout_marginLeft="10dp"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Featured Dishes"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"/>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/spaghetti"/>
+                        <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/pizz"/>
+                        <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/mandhi"/>
+                        <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/biriyani"/>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="         Spaghetti                      Pizza                       Mandhi                  Biriyani"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Popular Dishes"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/spaghetti" />
+
+                <ImageButton
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/pizz" />
+
+                <ImageButton
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/mandhi" />
+
+                <ImageButton
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/biriyani" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
