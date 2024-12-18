@@ -26,6 +26,13 @@
             android:textSize="30dp"
             android:textStyle="bold"
             android:layout_margin="15dp"/>
+        <View
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/baseline_account_circle_24"
+            />
 
 
 
@@ -114,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:text="         Spaghetti                      Pizza                       Mandhi                  Biriyani"
                         android:textSize="20dp"
-                        android:textColor="@color/black"/>
+                        android:textColor="#F46C36"/>
                 </LinearLayout>
 
             </HorizontalScrollView>
